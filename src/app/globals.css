@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #121418;
+    color: #e2e8f0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+/* Boss Pedal Matte Texture */
+.boss-chassis {
+  background: linear-gradient(145deg, #2b3038, #1f2329);
+  box-shadow: 
+    8px 8px 24px rgba(0, 0, 0, 0.6),
+    -4px -4px 12px rgba(255, 255, 255, 0.03),
+    inset 0 1px 1px rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+/* Metallic Rotary Knobs & Footswitches */
+.boss-knob {
+  background: radial-gradient(circle at 30% 30%, #4a525d, #1c2026);
+  box-shadow:
+    4px 4px 10px rgba(0, 0, 0, 0.7),
+    -2px -2px 6px rgba(255, 255, 255, 0.08),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.15);
+}
+
+.boss-footswitch {
+  background: radial-gradient(circle at 40% 40%, #e2e8f0 0%, #cbd5e1 30%, #64748b 70%, #334155 100%);
+  box-shadow:
+    0 6px 12px rgba(0, 0, 0, 0.7),
+    inset 0 2px 2px rgba(255, 255, 255, 0.9),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Boss LCD Retro Segment Display Screen */
+.boss-lcd-screen {
+  background-color: #0b0e12;
+  border: 2px solid #1c222b;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+/* LED Indicator Glows */
+.boss-led-green {
+  background-color: #10b981;
+  box-shadow: 0 0 8px #10b981, 0 0 16px #10b981;
+}
+
+.boss-led-pink {
+  background-color: #ff2a5f;
+  box-shadow: 0 0 8px #ff2a5f, 0 0 16px #ff2a5f;
+}
