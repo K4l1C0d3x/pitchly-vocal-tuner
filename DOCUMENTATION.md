@@ -209,7 +209,7 @@ Pitchly's interface is inspired by high-end analog/digital music hardware (**Bos
   - High-precision SVG Arc Needle Tuner Gauge.
   - Retro 7-Segment White/Cyan LCD display for note, octave, frequency, target Hz, and cents.
   - Chrome Heavy-Duty Footswitch button with mint-green LED for Microphone toggle.
-- **Credits**: Screen-printed label at bottom right: `MADE BY 2 DUMB PEOPLE KALIDAS & ELNA`.
+
 
 ---
 

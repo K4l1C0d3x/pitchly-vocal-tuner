@@ -88,7 +88,7 @@ export default function Home() {
   const isHeld = !isLiveSignal && lastDetectedPitch !== null && activeSource !== 'off';
 
   return (
-    <main className="min-h-screen bg-[#101216] text-slate-100 flex flex-col items-center justify-between p-4 md:p-6 overflow-hidden select-none">
+    <main className="min-h-screen bg-[#101216] text-slate-100 flex flex-col items-center justify-center p-4 md:p-6 overflow-hidden select-none">
       <div className="w-full max-w-5xl flex flex-col gap-4 my-auto">
         {/* Main Side-by-Side Boss Effect Pedals Container */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full items-stretch">
@@ -162,11 +162,6 @@ export default function Home() {
               <span>12-TET EQUAL TEMPERAMENT</span>
             </div>
           </div>
-        </div>
-
-        {/* Bottom Right Footer Credit */}
-        <div className="w-full flex justify-end px-2 pt-1 text-[10px] font-mono text-zinc-500 uppercase tracking-widest">
-          MADE BY 2 DUMB PEOPLE KALIDAS &amp; ELNA
         </div>
       </div>
     </main>
